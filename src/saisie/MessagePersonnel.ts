@@ -46,10 +46,9 @@ export class MessagePersonnel extends MessageAbstract {
 
                 chif.message = this._mailDestinataire[i];
                 message += chif.chiffrer();
+            }
         }
 
         return message;
     }
-}
-
 }
