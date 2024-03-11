@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": [
+        "ban-untagged-todo",
+        "camelcase",
+        "explicit-function-return-type"
+      ],
+      "exclude": ["no-unused-vars", "prefer-const"]
+    }
+  }
+}
